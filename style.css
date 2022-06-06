@@ -111,13 +111,19 @@ li a:hover{
 }
 .sogaebox{
     float:left;
+    width:100vw;
+    display: inline;
 }
 .zhongguo{
+    width:100vw;
     
 }
 .zhongguo img{
     height:60%;
+    width:100vw;
+    border-style:inset;
 }
 .paintmarker{
+    width:100vw;
 
 }
