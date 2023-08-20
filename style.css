@@ -1,0 +1,118 @@
+@font-face{
+    src: url(fonts/Helvetica\ 53\ Extended\ Oblique.woff);
+    font-family: Helvetica_extended;
+}
+
+@font-face{
+    src: url(fonts/Pretendard-Medium.woff);
+    font-family: Pretendard;
+}
+*{
+    margin: 0px;
+    text-decoration-line: none;
+    color: black;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+
+    border: 4px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Helvetica_extended';
+    font-size:130%;
+}
+
+.middlecard{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.boxone{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border: 3.7px solid black;
+    border-top:0px;
+}
+
+.boxtwo{
+    border: 3.7px solid black;
+    border-top:0px;
+    border-left:0px;
+    height: 700px;
+}
+.firstbox{
+    border: 3.7px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: #e0e0e0;
+}
+
+.secondbox{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.secondboxtitle{
+    font-family: 'Helvetica_extended';
+    margin-top: 10%;
+    margin-right: 10%;
+    font-size: 250%
+}
+.secondboxtext{
+    font-family: 'Pretendard';
+    margin-right: 10%;
+    margin-bottom: 10%;
+    text-size-adjust: auto;
+}
+
+.boxtwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.creativepark{
+    text-align: center;
+    margin-top: 7%;
+}
+
+.boxtwotitle{
+    font-family: 'Helvetica_extended';
+    font-size: 460%;
+    padding-right: 30%;
+}
+
+.boxtwoname{
+    font-family: 'Gungsuh';
+    font-size: 460%;
+    padding-left: 50%;
+    text-size-adjust: auto;
+}
+
+.portfoliotypo{
+    width: 50%;
+    padding-left: 6%;
+    padding-bottom: 6%;
+    object-fit: cover;
+    bottom: 0;
+}
